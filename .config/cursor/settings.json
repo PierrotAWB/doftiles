@@ -1,0 +1,60 @@
+{
+    "keyboard.dispatch": "keyCode",
+    "keyboard.chordKeybindingTimeout": 200,
+    "window.commandCenter": true,
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-w>", "<C-j>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-w>", "<C-k>"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["<C-w>", "<C-h>"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<C-w>", "<C-l>"]
+        },
+        {
+            "before": ["<C-x>"],
+            "after": ["<C-w>", "s"]
+        },
+        {
+            "before": ["<C-w>", "L"],
+            "commands": ["workbench.action.moveEditorToNextGroup"]
+        },
+        {
+            "before": ["<C-w>", "H"],
+            "commands": ["workbench.action.moveEditorToPreviousGroup"]
+        },
+        {
+            "before": ["<C-w>", "K"],
+            "commands": ["workbench.action.moveEditorToAboveGroup"]
+        },
+        {
+            "before": ["<C-w>", "J"],
+            "commands": ["workbench.action.moveEditorToBelowGroup"]
+        },
+        {
+            "before": ["<space>", "o"],
+            "commands": [":only"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.foldfix": true,
+    "vim.smartRelativeLine": true,
+    "cursor.chat.showSuggestedFiles": true,
+    "workbench.colorTheme": "Ayu Mirage",
+    "makefile.configureOnOpen": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+}

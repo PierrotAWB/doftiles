@@ -1,0 +1,284 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.newWindowTab"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "-workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "-workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "cmd+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "cmd+5",
+        "command": "workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "-workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "ctrl+5",
+        "command": "workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "cmd+5",
+        "command": "-workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "cmd+6",
+        "command": "-workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "cmd+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "ctrl+6",
+        "command": "-workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "cmd+7",
+        "command": "-workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "cmd+7",
+        "command": "workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "ctrl+7",
+        "command": "-workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "cmd+8",
+        "command": "workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "cmd+8",
+        "command": "-workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "cmd+9",
+        "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "-workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "cmd+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "space space",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "space f",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "space f",
+        "command": "workbench.view.explorer",
+        "when": "editorTextFocus && vim.mode == 'Normal' && !sideBarVisible"
+    },
+    {
+        "key": "space f",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "editorTextFocus && vim.mode == 'Normal' && sideBarVisible && activeViewlet == 'workbench.view.explorer'"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "space n",
+        "command": "workbench.action.files.newUntitledFile",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "g d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor && vim.mode == 'Normal' && !inVimSearchMode && !inChordMode"
+    },
+    {
+        "key": "g shift+d",
+        "command": "editor.action.revealDefinitionAside",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor && vim.mode == 'Normal' && !inVimSearchMode"
+    },
+    {
+        "key": "g r",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor && vim.mode == 'Normal' && !inVimSearchMode"
+    },
+    {
+        "key": "g c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && vim.mode == 'Normal' && !inVimSearchMode"
+    },
+    {
+        "key": "g g",
+        "command": "cursorTop",
+        "when": "editorTextFocus && vim.mode == 'Normal' && !inVimSearchMode"
+    },
+    {
+        "key": "g /",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "editorTextFocus && vim.mode == 'Normal' && !inVimSearchMode"
+    },
+    {
+        "key": "g /",
+        "command": "workbench.view.search",
+        "when": "editorTextFocus && vim.mode == 'Normal' && !panelVisible && !inVimSearchMode"
+    },
+    {
+        "key": "g /",
+        "command": "workbench.action.togglePanel",
+        "when": "editorTextFocus && vim.mode == 'Normal' && panelVisible && activeViewlet == 'workbench.view.search' && !inVimSearchMode"
+    },
+    {
+        "key": "g t",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "g shift+t",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "space o",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Normal'",
+        "args": {
+            "after": [
+                "space",
+                "o"
+            ]
+        }
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    }
+]
