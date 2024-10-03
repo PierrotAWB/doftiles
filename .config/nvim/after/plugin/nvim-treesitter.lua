@@ -1,4 +1,4 @@
-require 'nvim-treesitter.configs'.setup {
+require 'nvim-ts-autotag'.setup({
     ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "javascript", "rust", "html", "css", "tsx" },
     auto_install = false,
     highlight = {
@@ -11,4 +11,4 @@ require 'nvim-treesitter.configs'.setup {
     indent = {
         enable = true,
     }
-}
+})

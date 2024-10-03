@@ -3,7 +3,7 @@ vim.g.loaded_netrwPlugin = 1
 
 -- General appearance
 vim.o.background = 'light'
-vim.o.colorcolumn = 80
+vim.o.colorcolumn = '80'
 vim.o.cursorline = true
 vim.o.guicursor = 'i-ci-ve:hor50-blinkwait0-blinkoff100-blinkon100'
 vim.o.termguicolors = true

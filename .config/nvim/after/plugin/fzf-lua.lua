@@ -48,7 +48,13 @@ Map('n', 'gD', function()
         jump_to_single_result_action = require('fzf-lua.actions').file_vsplit,
     })
 end)
-Map('n', 'gds', function()
+Map('n', 'gr', function()
+    require('fzf-lua').lsp_references({
+        sync = true,
+        jump_to_single_result = true,
+    })
+end)
+Map('n', 'gdx', function()
     require('fzf-lua').lsp_definitions({
         sync = true,
         jump_to_single_result = true,
@@ -62,7 +68,3 @@ Map('n', 'gdt', function()
         jump_to_single_result_action = require('fzf-lua.actions').file_tabedit,
     })
 end)
-Map('n', '<leader>b', "<cmd>lua require('fzf-lua').buffers()<CR>")
-Map('n', 'gr', "<cmd>lua require('fzf-lua').lsp_references()<CR>")
-Map('n', 'gi', "<cmd>lua require('fzf-lua').lsp_implementations()<CR>")
-Map('n', '<leader>ca', "<cmd>lua require('fzf-lua').lsp_code_actions()<CR>")

@@ -39,8 +39,9 @@ function zle-keymap-select() {
     esac
 }
 zle -N zle-keymap-select
-echo -ne '\e[5 q' # Use beam shape cursor on startup.
-preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+
+[ -n "$PS1" ] && echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { [ -n "$PS1" ] && echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 # Wrap lf
 function lfcd() {

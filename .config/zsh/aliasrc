@@ -32,20 +32,25 @@ alias \
 	gpl="git pull" \
 	gpu="git push" \
 	grb="git rebase" \
+	grba="git rebase --abort" \
+	grbc="git rebase --continue" \
 	grl="git reflog" \
 	grev="git revert" \
 	gs="git status" \
 	gst="git stash" \
+	gsl="git stash list" \
 	gsa="git stash apply"
 
 # General commands
 alias \
-	dfh="df -h | egrep \"Use|/$\"" \
+    ...="../.." \
+    ....="../../.." \
+    agentloop="python -m venv venv && source local.env && export AWS_PROFILE=simloop" \
 	duu="du -h | sort -rh" \
 	flushcache="sudo systemd-resolve --flush-caches" \
 	linux="ssh -Y a99wang@linux.student.cs.uwaterloo.ca" \
 	k="killall" \
+    py="python3" \
+    python="python3" \
 	r="lfcd" \
-	sty="sudo nvim /usr/local/share/texmf/tex/latex/Andrew/Andrew.sty" \
-	youtube-dl="youtube-dl --config-location $XDG_CONFIG_HOME/youtube-dl/config" \
-	yd="youtube-dl"
+	sty="sudo nvim /usr/local/share/texmf/tex/latex/Andrew/Andrew.sty" 

@@ -40,7 +40,7 @@ map gt cd /tmp
 cmd open ${{
     case $(file --mime-type $f -b) in
         text/*|application/octet-stream|application/json) $EDITOR $fx ;;
-	application/pdf|image/vnd.djvu) setsid zathura $fx ;;
+	application/pdf|image/vnd.djvu) setsid open $fx ;;
 	application/epub*) open $fx ;;
 	application/zip) unzip $f ;;
 	image/*) open $fx 2>/dev/null ;;
